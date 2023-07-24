@@ -271,3 +271,23 @@
     .spesification__img img {
         width: 218px;
     }
+
+    /* FOOTER */
+
+    .footer__wrapper {
+        margin-top: 1.5rem;
+        text-align: center;
+        border: 1px solid gray;
+        padding: 1.5rem 0;
+    }
+
+    .footer__copyright {
+        font-size: var(--smaller-font-size);
+    }
+
+    .footer__copyright-link {
+        color: var(--first-color);
+        text-decoration: underline;
+        text-decoration-style: dashed;
+        text-underline-offset: .15rem;
+    }
