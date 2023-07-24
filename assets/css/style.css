@@ -142,12 +142,14 @@
     }
 
     /* MAIN */
+
     .main__wrapper {
         max-width: 1200px;
         margin: 0 1rem;
     }
 
     /* DESCRIPTION */
+
     .description__wrapper {
         height: calc(100vh - 3rem);
         margin-top: 3rem;
@@ -204,6 +206,7 @@
     }
 
     /* ANIMATION DESCRIPTION PAGES */
+
     .airpod1 {
         animation: airpod1 3s infinite;
     }
@@ -222,4 +225,49 @@
         50% {
             transform: translateY(6%);
         }
+    }
+
+    /* SPESIFICATION  */
+
+    .spesification__wrapper {
+        height: calc(100vh - 3rem);
+        display: grid;
+        grid-template-columns: max-content max-content;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .spesification__box {
+        margin-bottom: 2.5rem;
+        text-align: center;
+    }
+
+    .spesification__sub-title {
+        font-size: var(--smaller-font-size);
+        display: inline-block;
+        width: 15ch;
+    }
+
+    .spesification__title {
+        font-size: var(--bigger-font-size);
+        font-weight: 400;
+    }
+
+    .spesification__title span {
+        font-size: var(--big-font-size);
+    }
+
+    .spesification__description {
+        font-size: var(--normal-font-size);
+        width: 15ch;
+        margin: 0 auto;
+    }
+
+    .spesification__img {
+        width: max-content;
+        align-items: center;
+    }
+
+    .spesification__img img {
+        width: 218px;
     }
