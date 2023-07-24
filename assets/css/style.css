@@ -272,6 +272,24 @@
         width: 218px;
     }
 
+    /* ANIMATION SPESIFICATION PAGES  */
+
+    .airpods {
+        animation: airpods 3s infinite;
+    }
+
+    @-webkit-keyframes airpods {
+        50% {
+            transform: translateY(-6%);
+        }
+    }
+
+    @keyframes airpods {
+        50% {
+            transform: translateY(-6%);
+        }
+    }
+
     /* FOOTER */
 
     .footer__wrapper {
