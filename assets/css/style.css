@@ -101,3 +101,42 @@
             transition: .5s;
         }
     }
+
+    .nav__actions {
+        display: flex;
+        align-items: center;
+    }
+
+    .nav__item {
+        margin-bottom: 1.5rem;
+    }
+
+    .nav__link {
+        color: var(--first-color);
+    }
+
+    .nav__link:hover {
+        color: var(--second-color);
+    }
+
+    .nav__logo {
+        color: var(--first-color);
+        font-weight: 700;
+    }
+
+    .nav__toggle {
+        display: inline;
+        cursor: pointer;
+        margin-right: 1rem;
+    }
+
+    .nav__toggle img {
+        width: 1.8rem;
+    }
+
+    .nav__btn {
+        background-color: var(--second-color);
+        color: var(--white-color);
+        padding: 0.375rem 1rem;
+        border-radius: 2rem;
+    }
