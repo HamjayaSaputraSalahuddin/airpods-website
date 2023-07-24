@@ -309,3 +309,99 @@
         text-decoration-style: dashed;
         text-underline-offset: .15rem;
     }
+
+    /* MEDIA QUERYS */
+
+    @media screen and (min-width: 768px) {
+
+        /* NAVBAR SECTION MEDIA QUERY */
+        .nav__wrapper {
+            height: 4rem;
+        }
+
+        .nav__menu {
+            margin-left: auto;
+        }
+
+        .nav__list {
+            display: flex;
+        }
+
+        .nav__item {
+            margin-right: 1.5rem;
+            margin-bottom: 0;
+        }
+
+        .nav__toggle {
+            display: none;
+        }
+
+        /* DESCRIPTION PAGES MEDIA QUERYS */
+        .description__wrapper {
+            height: 100vh;
+            grid-template-columns: min-content;
+            grid-template-rows: 80% 10%;
+            grid-template-areas: "data img" "scroll scroll";
+            align-items: flex-end;
+            justify-content: center;
+            column-gap: 4rem;
+            margin-top: 0;
+        }
+
+        .description__data {
+            grid-area: data;
+            padding: 0;
+            align-self: center;
+            text-align: initial;
+        }
+
+        .description__desc {
+            padding: 0 5rem 0 0;
+        }
+
+        .description__img {
+            grid-area: img;
+            align-self: center;
+        }
+
+        .description__img img {
+            width: 114px;
+            height: 248px;
+        }
+
+        .description__scroll {
+            grid-area: scroll;
+            padding-bottom: 2rem;
+        }
+
+        /* SPESIFICATION PAGES MEDIA QUERYS */
+        .spesification__wrapper {
+            grid-template-columns: none;
+            grid-template-rows: max-content max-content;
+            justify-content: center;
+            align-items: center;
+            row-gap: 2.5rem;
+        }
+
+        .spesification__content {
+            display: flex;
+            column-gap: 3.5rem;
+        }
+
+        .spesification__img {
+            justify-self: center;
+        }
+
+        .spesification__img img {
+            width: 300px;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        .nav__wrapper {
+            margin: 0 auto;
+        }
+        .main__wrapper {
+            margin: 0 auto;
+        }
+    }
