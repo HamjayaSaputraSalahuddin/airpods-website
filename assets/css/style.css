@@ -102,6 +102,11 @@
         }
     }
 
+    /* SHOW MENU */
+    .show {
+        top: 3rem;
+    }
+
     .nav__actions {
         display: flex;
         align-items: center;
